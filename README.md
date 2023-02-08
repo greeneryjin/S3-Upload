@@ -67,3 +67,10 @@ front-end
         return myGardenDtl;
     }   
  ```
+ 
+ 사진 피드
+ <img width="669" alt="aa" src="https://user-images.githubusercontent.com/87289562/217510252-fac40396-4b91-4393-bf52-14d156e5016b.PNG">
+ 
+ 
+ 동영상 피드
+ <img width="669" alt="ss" src="https://user-images.githubusercontent.com/87289562/217510145-e19e68a5-4e27-46cd-8396-c3b1fa4e630b.PNG">
