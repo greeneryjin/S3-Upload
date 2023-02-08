@@ -78,4 +78,4 @@ front-end
 <img width="260" alt="1" src="https://user-images.githubusercontent.com/87289562/217515905-a8373a22-901c-4d2b-a24f-bc8df2384374.PNG">
 <img width="258" alt="22" src="https://user-images.githubusercontent.com/87289562/217516360-91c27ad7-46b0-4b3c-aef6-2490dfc2cfe8.PNG">
 <img width="258" alt="333" src="https://user-images.githubusercontent.com/87289562/217516399-bb7b90a2-d98e-4b65-9e23-c27af3dffbd3.PNG">
- 
+<img width="260" alt="캡처" src="https://user-images.githubusercontent.com/87289562/217518320-ddff8d0d-2215-4859-b940-d622cd90d9b3.PNG">
