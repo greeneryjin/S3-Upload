@@ -2,7 +2,8 @@
 aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제) 구현
 
 front-end
-- react
+- react-native
+
 
 사용 언어
 - JAVA 8
@@ -69,18 +70,13 @@ front-end
  ```
  
  Swaager
- 
- ![슬라이드1 PNG](https://user-images.githubusercontent.com/87289562/217513134-2030abd0-f06b-4c2d-9410-c5503a2ce3b5.png)
+<img width="827" alt="사진ㅇㅇ" src="https://user-images.githubusercontent.com/87289562/217515749-45e70bcb-1c15-483e-a9bd-4656d8242b64.PNG">
 
+
+완성된 페이지
+<img width="258" alt="1" src="https://user-images.githubusercontent.com/87289562/217515905-a8373a22-901c-4d2b-a24f-bc8df2384374.PNG">
+<img width="258" alt="22" src="https://user-images.githubusercontent.com/87289562/217516360-91c27ad7-46b0-4b3c-aef6-2490dfc2cfe8.PNG">
+<img width="258" alt="333" src="https://user-images.githubusercontent.com/87289562/217516399-bb7b90a2-d98e-4b65-9e23-c27af3dffbd3.PNG">
  
  
- 사진 피드
- 
- <img width="669" alt="ss" src="https://user-images.githubusercontent.com/87289562/217510145-e19e68a5-4e27-46cd-8396-c3b1fa4e630b.PNG">
- 
- 
- 
- 동영상 피드
- 
- <img width="669" alt="aa" src="https://user-images.githubusercontent.com/87289562/217510252-fac40396-4b91-4393-bf52-14d156e5016b.PNG">
  
