@@ -70,13 +70,4 @@ front-end
  ```
  
  Swaager
- 
-<img width="827" alt="사진ㅇㅇ" src="https://user-images.githubusercontent.com/87289562/217515749-45e70bcb-1c15-483e-a9bd-4656d8242b64.PNG">
-
-
-완성된 페이지
-
-<img width="260" alt="1" src="https://user-images.githubusercontent.com/87289562/217515905-a8373a22-901c-4d2b-a24f-bc8df2384374.PNG">
-<img width="258" alt="22" src="https://user-images.githubusercontent.com/87289562/217516360-91c27ad7-46b0-4b3c-aef6-2490dfc2cfe8.PNG">
-<img width="258" alt="333" src="https://user-images.githubusercontent.com/87289562/217516399-bb7b90a2-d98e-4b65-9e23-c27af3dffbd3.PNG">
-<img width="260" alt="캡처" src="https://user-images.githubusercontent.com/87289562/217518320-ddff8d0d-2215-4859-b940-d622cd90d9b3.PNG">
+ ![슬라이드1 PNG](https://user-images.githubusercontent.com/87289562/217513134-2030abd0-f06b-4c2d-9410-c5503a2ce3b5.png)
