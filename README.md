@@ -68,6 +68,12 @@ front-end
     }   
  ```
  
+ Swaager
+ 
+ ![슬라이드1 PNG](https://user-images.githubusercontent.com/87289562/217513134-2030abd0-f06b-4c2d-9410-c5503a2ce3b5.png)
+
+ 
+ 
  사진 피드
  
  <img width="669" alt="ss" src="https://user-images.githubusercontent.com/87289562/217510145-e19e68a5-4e27-46cd-8396-c3b1fa4e630b.PNG">
