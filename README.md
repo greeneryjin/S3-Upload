@@ -25,7 +25,7 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
 ```
 
 핵심 코드     
-1. S3에 업로드될 때, UUID를 사용해서 랜덤 값으로 저장해야 사진 이름에서 중복이 발생할 확률이 적어집니다.  
+1. S3에 업로드될 때, UUID를 사용해서 랜덤 값으로 저장해야 사진 이름이 중복되는 것을 막을 수 있습니다.  
 ```java
     private String createStoreFileName(String originalFilename) {
         // 서버에 저장하는 파일 명
