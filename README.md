@@ -9,12 +9,10 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
 
 사용 기술
 ```
-- spring-boot
+- springboot
 - Mysql
 - S3
-- Querydsl
-- spring data jpa
-- spring jpa
+- jpa
 ```
 
 라이브러리
