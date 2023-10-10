@@ -25,7 +25,7 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
 ```
 
 핵심 코드     
--> S3에 업로드될 때, UUID를 사용해서 랜덤 값으로 저장해야 사진 이름에서 중복이 발생할 확률이 적어집니다.  
+1. S3에 업로드될 때, UUID를 사용해서 랜덤 값으로 저장해야 사진 이름에서 중복이 발생할 확률이 적어집니다.  
 ```java
     private String createStoreFileName(String originalFilename) {
         // 서버에 저장하는 파일 명
@@ -37,8 +37,8 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
     }
 ```
 
-핵심 코드
--> 클라이언트가 올린 파일을 변환해서 올려야 파일이 깨지는 것을 막을 수 있습니다. 
+
+2. 클라이언트가 올린 파일을 변환해서 올려야 파일이 손상되는 것을 막을 수 있습니다. 
 ```java
     private Optional<File> convertMultipartFileToFile(MultipartFile file) throws IOException {
         File convertedFile = new File(file.getOriginalFilename());
@@ -53,8 +53,8 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
     }
 ```
 
-핵심 코드
--> 사진을 저장하고 다시 수정할 때는 s3에 있던 사진을 지우고 새로 저장해야 s3 요금을 조금이라도 절약할 수 있습니다. 
+
+3. 사진을 수정할 때는 s3에 있던 기존 사진을 삭제한 후, 다시 업로드하는 방식입니다. 
 ```java
     @Transactional
     public MyGardenDtl update(Long id, PlantChangeDto plantChangeDto, MultipartFile file) throws IOException {
