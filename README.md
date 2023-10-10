@@ -65,6 +65,24 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
         return myGardenDtl;
     }   
  ```
- 
- Swaager    
- ![슬라이드1 PNG](https://user-images.githubusercontent.com/87289562/217513134-2030abd0-f06b-4c2d-9410-c5503a2ce3b5.png)
+
+4. 여러 개를 올릴 경우 사진의 순서가 중요하기 때문에 List를 사용합니다.    
+```java
+    public List<ProfileDto> uploadProfile(List<MultipartFile> file, String folderName) throws IOException {
+        List<ProfileDto> attachFile = fileStore.storeFile(file, folderName);
+        for (int i = 0; i < attachFile.size(); i++) {
+            File uploadFile = convertMultipartFileToFile(file.get(i))
+                    .orElseThrow(() -> new IllegalArgumentException("MultipartFile -> File로 전환이 실패했습니다."));
+
+            //S3 업로드
+            s3Client.putObject(new PutObjectRequest(
+                    bucketName + folderName, attachFile.get(i).getFileName(),
+                    uploadFile).withCannedAcl(CannedAccessControlList.PublicRead));
+
+            //생성된 로컬 파일 삭제
+            removeNewFile(uploadFile);
+        }
+        return attachFile;
+    }
+} 
+ ```
