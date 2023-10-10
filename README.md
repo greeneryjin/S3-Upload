@@ -7,6 +7,7 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
 
 
 사용 기술
+```java
 - spring-boot
 - spring
 - Mysql
@@ -14,12 +15,13 @@ aws-s3와 spring을 연동해서 사진 업로드(저장, 조회, 수정, 삭제
 - Querydsl
 - spring data jpa
 - spring jpa
-
+```
 
 라이브러리
+```
 - lombok
 - gradle
-
+```
 
 핵심 코드 
 -> S3에 업로드될 때, UUID를 사용해서 랜덤 값으로 저장해야 사진 이름에서 중복이 발생할 확률이 적어집니다.  
