@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "aws.s3")
 public class AwsS3Config {
     //properties 파일에서 s3 access id와 pw 호출
-    @Value("${ㅎㅎㅎㅎㅎㅎ}")
+    @Value("${accessKey}")
     private String accessKey;
 
-    @Value("${ㅎㅎㅎㅎㅎ}")
+    @Value("${secretKey}")
     private String secretKey;
 
     @Bean
